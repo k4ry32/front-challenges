@@ -112,7 +112,7 @@ const AgeCalculatorForm = () => {
             <div className="flex flex-col mx-7 lg:mx-16 my-14 lg:my-12 text-[#141414] text-6xl lg:text-[7rem] font-extrabold leading-[1.10] italic">
                 <div className="flex flex-row">
                     {
-                        date.years >= 0 ?
+                        date.years != null ?
                         <p id="yearsCounter" className="text-[#854dff] mr-2">0</p>
                         :
                         <p className="text-[#854dff] mr-2"> -- </p>
@@ -121,7 +121,7 @@ const AgeCalculatorForm = () => {
                 </div>
                 <div className="flex flex-row">
                     {
-                        date.months >= 0 ?
+                        date.months != null ?
                         <p id="monthsCounter" className="text-[#854dff] mr-2">0</p>
                         :
                         <p className="text-[#854dff] mr-2"> -- </p>
@@ -130,7 +130,7 @@ const AgeCalculatorForm = () => {
                 </div>
                 <div className="flex flex-row">
                     {
-                        date.days >= 0 ?
+                        date.days != null ?
                         <p id="daysCounter" className="text-[#854dff] mr-2">0</p>
                         :
                         <p className="text-[#854dff] mr-2"> -- </p>
