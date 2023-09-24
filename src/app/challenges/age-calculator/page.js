@@ -16,8 +16,8 @@ const AgeCalculator = () => {
                 <p className="text-xl ml-2"> Volver </p>
             </Link>
 
-            <div className="flex place-content-center bg-slate-100 sm:rounded-xl sm:p-16 shadow-xl my-auto">
-                <div className="lg:w-[940px] lg:h-[710px] w-[380px] h-[800px] flex lg:flex-row flex-col lg:rounded-3xl lg:rounded-br-[200px] bg-[#ffffff] shadow-xl">
+            <div className="flex place-content-center lg:bg-slate-100 lg:rounded-xl lg:p-16 lg:shadow-xl my-auto">
+                <div className="lg:w-[940px] lg:min-h-[710px] lg:h-fit w-[380px] min-h-[480px] flex lg:flex-row flex-col rounded-3xl lg:rounded-3xl rounded-br-[100px] lg:rounded-br-[200px] bg-[#ffffff] shadow-xl">
                     <AgeCalculatorForm />
                 </div>
             </div>
