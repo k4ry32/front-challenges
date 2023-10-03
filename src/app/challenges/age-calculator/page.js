@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { IoMdArrowRoundBack } from 'react-icons/io';
 import { Poppins } from 'next/font/google';
 import AgeCalculatorForm from "@/app/components/age-calculator-form";

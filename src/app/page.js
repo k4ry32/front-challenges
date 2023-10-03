@@ -11,6 +11,10 @@ export default function Home() {
         {
             name: 'Age Calculator',
             href: '/challenges/age-calculator'
+        },
+        {
+            name: 'Intro Section Page',
+            href: '/challenges/intro-section-page'
         }
     ];
 
